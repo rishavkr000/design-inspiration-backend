@@ -1,0 +1,100 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:21:24.067Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:21:47.621Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:21:51.119Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:21:54.700Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:22:01.565Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:22:14.720Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:22:18.073Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:25:12.461Z"}
+{"level":"info","message":"POST /api/register","timestamp":"2025-04-30T14:25:16.251Z"}
+{"level":"info","message":"User registered: rishav","timestamp":"2025-04-30T14:25:16.892Z"}
+{"level":"info","message":"POST /api/login","timestamp":"2025-04-30T14:26:19.832Z"}
+{"level":"info","message":"User logged in: rishav","timestamp":"2025-04-30T14:26:19.976Z"}
+{"level":"info","message":"POST /api/extract-links","timestamp":"2025-04-30T14:28:11.259Z"}
+{"level":"info","message":"Authenticated user: 681232cc690c0e4ee608e5b5","timestamp":"2025-04-30T14:28:11.269Z"}
+{"level":"info","message":"Entering validateExtractLinks middleware","timestamp":"2025-04-30T14:28:11.269Z"}
+{"level":"info","message":"Processing validateExtractLinks validation result","timestamp":"2025-04-30T14:28:11.274Z"}
+{"level":"info","message":"Validation passed for extract-links","timestamp":"2025-04-30T14:28:11.275Z"}
+{"level":"info","message":"Extracting links for URL: https://atozdebug.com/","timestamp":"2025-04-30T14:28:11.276Z"}
+{"level":"info","message":"Extracted 105 links from https://atozdebug.com/","timestamp":"2025-04-30T14:28:22.569Z"}
+{"level":"info","message":"POST /api/inspirations","timestamp":"2025-04-30T14:29:08.258Z"}
+{"level":"info","message":"Authenticated user: 681232cc690c0e4ee608e5b5","timestamp":"2025-04-30T14:29:08.261Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 1","timestamp":"2025-04-30T14:29:08.268Z"}
+{"level":"info","message":"Entering validateAddInspirations middleware","timestamp":"2025-04-30T14:29:08.268Z"}
+{"level":"info","message":"Processing validateAddInspirations validation result","timestamp":"2025-04-30T14:29:08.272Z"}
+{"level":"info","message":"Validation passed for add-inspirations","timestamp":"2025-04-30T14:29:08.272Z"}
+{"level":"info","message":"Processing inspirations for URLs: https://atozdebug.com/#content, https://atozdebug.com/#, https://atozdebug.com/#main","timestamp":"2025-04-30T14:29:08.273Z"}
+{"level":"info","message":"Extracting details for https://atozdebug.com/#content","timestamp":"2025-04-30T14:29:08.273Z"}
+{"level":"info","message":"Extracting details for https://atozdebug.com/#","timestamp":"2025-04-30T14:29:08.274Z"}
+{"level":"info","message":"Extracting details for https://atozdebug.com/#main","timestamp":"2025-04-30T14:29:08.276Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/desktop-1746023363962.png","timestamp":"2025-04-30T14:29:25.738Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/desktop-1746023366276.png","timestamp":"2025-04-30T14:29:26.711Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/mobile-1746023366311.png","timestamp":"2025-04-30T14:29:26.936Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/mobile-1746023367259.png","timestamp":"2025-04-30T14:29:27.507Z"}
+{"level":"info","message":"Extracted details for https://atozdebug.com/#content: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-content","timestamp":"2025-04-30T14:29:29.840Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/desktop-1746023367291.png","timestamp":"2025-04-30T14:29:29.891Z"}
+{"level":"info","message":"Extracted details for https://atozdebug.com/#: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-","timestamp":"2025-04-30T14:29:29.986Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/mobile-1746023370478.png","timestamp":"2025-04-30T14:29:30.791Z"}
+{"level":"info","message":"Extracted details for https://atozdebug.com/#main: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-main","timestamp":"2025-04-30T14:29:30.893Z"}
+{"level":"info","message":"Saving inspiration for https://atozdebug.com/#content: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", title=\"Home - ATOZDEBUG\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-content","timestamp":"2025-04-30T14:29:31.544Z"}
+{"level":"info","message":"Saving inspiration for https://atozdebug.com/#: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", title=\"Home - ATOZDEBUG\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-","timestamp":"2025-04-30T14:29:31.626Z"}
+{"level":"info","message":"Saving inspiration for https://atozdebug.com/#main: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", title=\"Home - ATOZDEBUG\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-main","timestamp":"2025-04-30T14:29:31.922Z"}
+{"level":"info","message":"Created inspiration for https://atozdebug.com/#, slug: atozdebug-com-","timestamp":"2025-04-30T14:29:32.054Z"}
+{"level":"info","message":"Created inspiration for https://atozdebug.com/#content, slug: atozdebug-com-content","timestamp":"2025-04-30T14:29:32.070Z"}
+{"level":"info","message":"Created inspiration for https://atozdebug.com/#main, slug: atozdebug-com-main","timestamp":"2025-04-30T14:29:32.206Z"}
+{"level":"info","message":"Added 3 inspirations","timestamp":"2025-04-30T14:29:32.207Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:39:23.179Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:39:26.520Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:39:29.355Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:39:31.098Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:39:34.539Z"}
+{"level":"info","message":"POST /api/inspirations","timestamp":"2025-04-30T14:39:53.898Z"}
+{"level":"info","message":"Authenticated user: 681232cc690c0e4ee608e5b5","timestamp":"2025-04-30T14:39:53.903Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 1","timestamp":"2025-04-30T14:39:53.907Z"}
+{"level":"info","message":"Entering validateAddInspirations middleware","timestamp":"2025-04-30T14:39:53.907Z"}
+{"level":"info","message":"Processing validateAddInspirations validation result","timestamp":"2025-04-30T14:39:53.922Z"}
+{"level":"info","message":"Validation passed for add-inspirations","timestamp":"2025-04-30T14:39:53.923Z"}
+{"level":"info","message":"Processing inspirations for URLs: https://atozdebug.com/#content","timestamp":"2025-04-30T14:39:53.923Z"}
+{"level":"info","message":"Extracting details for https://atozdebug.com/#content","timestamp":"2025-04-30T14:39:53.924Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/desktop-1746024002601.png","timestamp":"2025-04-30T14:40:03.036Z"}
+{"level":"info","message":"Uploaded file to S3: screenshots/mobile-1746024003311.png","timestamp":"2025-04-30T14:40:03.418Z"}
+{"level":"info","message":"Extracted details for https://atozdebug.com/#content: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-content","timestamp":"2025-04-30T14:40:03.827Z"}
+{"level":"info","message":"Saving inspiration for https://atozdebug.com/#content: description=\"We at ATOZDEBUG partner with businesses to drive digital transformation through innovative technologies and tailored solutions. Whether you're developing an\", title=\"Home - ATOZDEBUG\", fonts=[\"Inter\",\"ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji\"], technologies=[\"HTML\",\"CSS\",\"JavaScript\",\"jQuery\"], categories=[\"Landing Page\"], niche=Unknown, slug=atozdebug-com-content","timestamp":"2025-04-30T14:40:04.346Z"}
+{"level":"info","message":"Created inspiration for https://atozdebug.com/#content, slug: atozdebug-com-content","timestamp":"2025-04-30T14:40:04.995Z"}
+{"level":"info","message":"Added 1 inspirations","timestamp":"2025-04-30T14:40:04.996Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:44:45.999Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:45:00.246Z"}
+{"level":"info","message":"GET /api/inspirations?page=1&limit=2","timestamp":"2025-04-30T14:45:37.167Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 1","timestamp":"2025-04-30T14:45:37.171Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:46:04.761Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 2","timestamp":"2025-04-30T14:46:04.767Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:46:13.668Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 3","timestamp":"2025-04-30T14:46:13.670Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:46:13.672Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:46:22.861Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 4","timestamp":"2025-04-30T14:46:22.862Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:46:22.863Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:47:38.204Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:48:11.473Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 1","timestamp":"2025-04-30T14:48:11.483Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:48:11.487Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:48:13.313Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 2","timestamp":"2025-04-30T14:48:13.315Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:48:13.317Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:48:29.703Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 3","timestamp":"2025-04-30T14:48:29.705Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:48:29.706Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:48:39.959Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:54:42.206Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:54:50.169Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 1","timestamp":"2025-04-30T14:54:50.174Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:54:50.700Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:54:56.682Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 2","timestamp":"2025-04-30T14:54:56.684Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:54:56.826Z"}
+{"level":"info","message":"GET /api/inspirations/atozdebug-com-content","timestamp":"2025-04-30T14:55:04.297Z"}
+{"level":"info","message":"Rate limit updated for IP: ::1, requests: 3","timestamp":"2025-04-30T14:55:04.300Z"}
+{"level":"info","message":"Cache hit for slug: atozdebug-com-content","timestamp":"2025-04-30T14:55:04.461Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-30T14:56:24.956Z"}
+{"level":"info","message":"POST /api/register","timestamp":"2025-04-30T14:56:27.559Z"}
+{"level":"info","message":"User registered: rishav","timestamp":"2025-04-30T14:56:28.140Z"}
